@@ -1,0 +1,82 @@
+/*div {
+    column-count: 3;
+    column-gap: 50px;
+
+    /* column-rule-style: solid;
+    column-rule-width: 1px; 
+    column-rule: 1px solid red;
+    column-width: 300px;
+}
+
+h1 {
+    column-span: all;
+}*/
+
+
+/*DISPLAY FLEX IS USED IN THE PARENT */
+.flex-container {
+    background-color: black;
+    
+    /*Make the children flexible*/
+    display: flex;
+    
+
+    /*======= ARRANGEMENT DONE IN ONE ROWS ======*/
+    
+    /*ONE -> TWO -> THREE -> FOUR */
+    /* LEFT TO RIGHT */
+    /* flex-direction: row; */
+
+    /* REVERSE */
+    /*flex-direction: row-reverse; */
+
+    /*==========================================*/
+
+    
+    
+    /*======= ARRANGEMENT DONE IN ONE COLUMN ======*/
+    
+    /*ONE -> TWO -> THREE -> FOUR */
+    /* LEFT TO RIGHT */
+    /* flex-direction: column;
+
+    /* REVERSE */
+    /* flex-direction: column-reverse;*/
+
+    /*==========================================*/
+
+    
+    /*====== WRAP ======*/
+    /*flex-wrap: wrap-reverse;*/
+    /*flex-flow: row wrap; */
+
+
+    /*================= JUSTIFY CONTENT =================*/
+    justify-content: center;
+
+    /* from where to start 
+    justify-content: flex-end;
+    */
+
+    /* space between each element 
+    justify-content: space-evenly; */
+    
+    /* equal space between the elements 
+    justify-content: space-between; */
+
+    justify-content: space-between;
+    height: 400px;
+    align-items: flex-end;
+
+}
+
+
+
+.flex-child {
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+}
